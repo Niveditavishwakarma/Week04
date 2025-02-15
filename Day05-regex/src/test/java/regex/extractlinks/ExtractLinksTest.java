@@ -55,7 +55,7 @@ public class ExtractLinksTest {
     void testInvalidUrls() {
         String text = "This should not match: google.com, http:/example.com, www..com";
 
-        List<String> expectedLinks = new ArrayList<>(); 
+        List<String> expectedLinks = new ArrayList<>();
 
         assertEquals(expectedLinks, extractLinks(text));
     }
