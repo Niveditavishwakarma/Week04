@@ -40,7 +40,7 @@ import static org.junit.jupiter.api.Assertions.*;
             assertThrows(IllegalArgumentException.class, () -> passwordValidator.isValidPassword(null),
                     "Password cannot be null");
         }
-        
+
         @Test
         void testValidExactPasswordLength() {
             assertTrue(passwordValidator.isValidPassword("A1b2C3d4"), "Password should be valid.");
