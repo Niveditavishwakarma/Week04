@@ -2,7 +2,7 @@ package reflectionproblems.intermediateLevel;
 import java.lang.reflect.Method;
 import java.util.Scanner;
 public class DynamicMethodInvocation {
-    
+
     public static class MathOperations {
         public int add(int a, int b) {
             return a + b;
